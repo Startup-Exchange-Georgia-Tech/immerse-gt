@@ -1,0 +1,19 @@
+.Header {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Header-logo-section {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-logo {
+  height: 50px;
+  width: auto;
+}
