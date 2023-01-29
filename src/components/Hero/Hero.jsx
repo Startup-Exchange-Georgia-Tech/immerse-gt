@@ -40,9 +40,10 @@ export default function Hero() {
             04.07.23 - 04.09.23 |📍Georgia Tech
           </div>
           <div className='hero-desc'>
-            <div className='hero-desc-text'>In-person XR hackathon.</div>
-            <div className='hero-desc-text'>Open to all.</div>
-            <div className='hero-desc-text'>$5000 in prizes.</div>
+            <div className='hero-desc-text'>In-person XR hackathon.<br/>
+            Open to all.<br/>
+            $5000 in prizes.
+            </div>
           </div>
           <div className='hero-apply'>
             <div className='hero-apply-button'>
