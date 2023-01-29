@@ -2,8 +2,9 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 10px;
+  align-items: center;
 }
 
 .Header-logo-section {
@@ -16,4 +17,26 @@
 .header-logo {
   height: 50px;
   width: auto;
+}
+
+.header-links {
+  color: white;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-apply {
+  color: white;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-apply-button {
+  background: rgba(92, 92, 92, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

@@ -1,0 +1,108 @@
+.Hero {
+  background-image: url('../../../public/bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+.Hero-content {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-width: 300px;
+}
+
+.hero-right {
+  width: 40%;
+  min-width: 300px;
+}
+
+.hero-desc {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hero-date {
+  display: flex;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.hero-apply {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+  column-gap: 40px;
+
+}
+
+.hero-apply-button {
+  border: 2px solid #C478FF;
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.countdown-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  /* identical to box height, or 32px */
+
+  letter-spacing: 0.77em;
+
+  color: #FFFFFF;
+}
+
+.countdown-container {
+  display: flex;
+  width: 70%;
+  padding-top: 20px;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+
+.countdown-number {
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.countdown-text {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  letter-spacing: 0.215em;
+}
+
+.grad-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen  and (max-width: 700px) {
+  .hero-date {
+    font-size: 18px;
+  }
+}
