@@ -1,0 +1,76 @@
+.Footer {
+    height: 400px;
+    width: 100%;
+    color: #fff;
+    margin: 0;
+    /* padding: 0px 200px; */
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    line-height: 1.75em;
+}
+.footer-content-container {
+    max-width: 900px;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-link {
+    color: #d2d2d2;
+}
+.footer-link-selected {
+    font-weight: 800;
+}
+
+
+.footer-brand-container {
+    padding-top: 70px;
+}
+.footer-info-container {
+    padding-top: 70px;
+}
+.footer-links-container {
+    padding-top: 70px;
+}
+
+/** FOOTER BRAND & COHOSTS **/
+.footer-logo {
+    height: 42px;
+    width: auto;
+}
+.footer-hosts-title {
+    padding-top: 65px;
+    text-transform: uppercase;
+}
+.footer-cohost-logo {
+    padding-top: 20px;
+    padding-right: 36px;
+    height: 28px;
+    width: auto;
+}
+
+/** FOOTER INFO SECTION **/
+.footer-info-brand {
+    text-transform: uppercase;
+    letter-spacing: 0.6em;
+}
+.footer-info-join {
+    padding-top: 65px;
+    display: inline-block;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.footer-info-dates {
+    font-weight: 800;
+}
+
+/** FOOTER LINKS SECTION **/
+.footer-social {
+    padding-top: 70px;
+}
+.footer-social-icon {
+    height: 22px;
+    width: auto;
+    padding-right: 12px;
+}
