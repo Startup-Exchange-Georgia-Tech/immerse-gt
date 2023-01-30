@@ -17,7 +17,8 @@
 .hero-left {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 42%;
+  min-width: 300px;
 }
 
 .hero-right {
@@ -29,10 +30,14 @@
   padding-bottom: 30px;
 }
 
+.hero-desc-text {
+  line-height: 150%;
+}
+
 .hero-date {
   display: flex;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .hero-apply {
