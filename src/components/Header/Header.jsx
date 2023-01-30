@@ -11,17 +11,25 @@ export default function Header() {
         <img src='/spiral.png' className='header-logo'></img>
       </div>
 
-      {width > 800 ? <div className='header-links'><div className='header-link'>About</div>
-        <div className='header-link'>Rules</div>
-        <div className='header-link'>Schedule</div>
-        <div className='header-link'>Tracks</div>
-        <div className='header-link'>FAQs</div>
-        <div className='header-link'>Contact</div> </div> : null}
+      {/* {width > 900 ? 
+        <>
+          <div className='header-links'>
+            <div className='header-link'>About</div>
+            <div className='header-link'>Rules</div>
+            <div className='header-link'>Schedule</div>
+            <div className='header-link'>Tracks</div>
+            <div className='header-link'>FAQs</div>
+            <div className='header-link'>Contact</div> 
+          </div> 
+          <div className='header-apply'>
+            <div className='header-apply-button'>Apply</div>
+          </div>
+        </>: <div className='header-hamburger-section'>
+          <img src='/hamburger.png' className='header-hamburger'></img>
+          </div>} */}
 
 
-      <div className='header-apply'>
-        <div className='header-apply-button'>Apply</div>
-      </div>
+      
     </div>
   )
 }
