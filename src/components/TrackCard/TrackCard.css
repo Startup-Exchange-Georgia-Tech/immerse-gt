@@ -1,0 +1,30 @@
+.TrackCard {
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 8px;
+    max-height: 32px;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.TrackCard:hover {
+    max-height: 2000px;
+}
+
+.trackcard_title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+.trackcard_description {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 0;
+    line-height: 1.4em;
+    opacity: 0.8;
+}
