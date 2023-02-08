@@ -47,7 +47,7 @@ export default function Hero() {
           </div>
           <div className='hero-apply'>
             <div className='hero-apply-button'>
-              Apply Now
+              <a href="https://ggqbjxtu5wa.typeform.com/to/LlcDYgKi" className='apply-link'>Apply Now</a>
             </div>
             <div className='hero-partner'>Partner with us <span className='arrow'><img src='/arrow.png'></img></span></div>
           </div>
