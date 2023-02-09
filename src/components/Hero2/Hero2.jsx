@@ -1,6 +1,6 @@
 import Header from "../Header/Header";
 import "./Hero2.css";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useLayoutEffect } from "react";
 import path from "../../assets/path.png";
 import pen from "../../assets/pen.png";
 import union from "../../assets/Union.png";
@@ -17,6 +17,8 @@ export default function Hero2() {
   const [countDown, setCountDown] = useState(
     countDownDate - new Date().getTime()
   );
+
+  const [size, setSize] = useState([0, 0]);
 
   const [gradientRotate, setGradientRotate] = useState(
     `linear-gradient(0deg, #fff, rgba(255, 255, 255, 0))`
@@ -48,6 +50,58 @@ export default function Hero2() {
   const buzzRef = useRef(null);
   const buttonRef = useRef(null);
 
+  const [penOffsetX, setPenOffstateX] = useState(10);
+  const [headsetOffsetX, setHeadsetOffstateX] = useState(6);
+  const [buzzOffsetX, setBuzzOffstateX] = useState(-2);
+
+  const [penOffsetY, setPenOffstateY] = useState(-20);
+  const [headsetOffsetY, setHeadsetOffstateY] = useState(5);
+  const [buzzOffsetY, setBuzzOffstateY] = useState(-30);
+
+  useLayoutEffect(() => {
+    function updateSize() {
+      setSize([window.innerWidth, window.innerHeight]);
+      if (window.innerWidth <= 1250) {
+        setPenOffstateX(-10);
+        setHeadsetOffstateX(-2);
+        setBuzzOffstateX(-20);
+        setPenOffstateY(-10);
+        setHeadsetOffstateY(0);
+        setBuzzOffstateY(-35);
+      }
+
+      if (window.innerWidth <= 800) {
+        setPenOffstateX(-30);
+        setHeadsetOffstateX(-10);
+        setBuzzOffstateX(-30);
+        setPenOffstateY(-20);
+        setHeadsetOffstateY(-15);
+        setBuzzOffstateY(-45);
+      }
+
+      if (window.innerWidth <= 550) {
+        setPenOffstateX(-60);
+        setHeadsetOffstateX(-40);
+        setBuzzOffstateX(-60);
+        setPenOffstateY(-20);
+        setHeadsetOffstateY(-15);
+        setBuzzOffstateY(-45);
+      }
+
+      if (window.innerWidth <= 400) {
+        setPenOffstateX(-70);
+        setHeadsetOffstateX(-50);
+        setBuzzOffstateX(-75);
+        setPenOffstateY(-20);
+        setHeadsetOffstateY(-15);
+        setBuzzOffstateY(-45);
+      }
+    }
+    window.addEventListener('resize', updateSize);
+    updateSize();
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+
   return (
     <div
       className="Hero"
@@ -62,17 +116,17 @@ export default function Hero2() {
         var x = e.clientX,
           y = e.clientY;
         buzzRef.current.style.top =
-          String(-30 + (y / window.innerHeight) * 4) + "vh";
+          String(buzzOffsetY + (y / window.innerHeight) * 4) + "vh";
         buzzRef.current.style.left =
-          String(-2 + (x / window.innerWidth) * 1.2) + "vw";
+          String(buzzOffsetX + (x / window.innerWidth) * 1.2) + "vw";
         penRef.current.style.bottom =
-          String((y / window.innerHeight) * 5) + "%";
+          String(penOffsetY + (y / window.innerHeight) * 5) + "vh";
         penRef.current.style.left =
-          String(5 - (x / window.innerWidth) * 1) + "%";
+          String(penOffsetX - (x / window.innerWidth) * 1) + "vw";
         headsetRef.current.style.bottom =
-          String(5 - (y / window.innerHeight) * 4) + "%";
+          String(headsetOffsetY - (y / window.innerHeight) * 4) + "vh";
         headsetRef.current.style.right =
-          String(6 - (x / window.innerWidth) * 1.2) + "%";
+          String(headsetOffsetX - (x / window.innerWidth) * 1.2) + "vw";
         const butt_x = buttonRef.current.getBoundingClientRect().x;
         const butt_y = buttonRef.current.getBoundingClientRect().y;
         const angle =
