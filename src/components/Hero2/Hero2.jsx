@@ -18,6 +18,10 @@ export default function Hero2() {
     countDownDate - new Date().getTime()
   );
 
+  const [gradientRotate, setGradientRotate] = useState(
+    `linear-gradient(0deg, #fff, rgba(255, 255, 255, 0))`
+  );
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCountDown(countDownDate - new Date().getTime());
@@ -42,12 +46,19 @@ export default function Hero2() {
   const penRef = useRef(null);
   const headsetRef = useRef(null);
   const buzzRef = useRef(null);
+  const buttonRef = useRef(null);
 
   return (
     <div
       className="Hero"
       onMouseMove={(e) => {
-        if (penRef == null || headsetRef == null || buzzRef == null) return;
+        if (
+          penRef == null ||
+          headsetRef == null ||
+          buzzRef == null ||
+          buttonRef == null
+        )
+          return;
         var x = e.clientX,
           y = e.clientY;
         buzzRef.current.style.top =
@@ -62,6 +73,20 @@ export default function Hero2() {
           String(5 - (y / window.innerHeight) * 4) + "%";
         headsetRef.current.style.right =
           String(6 - (x / window.innerWidth) * 1.2) + "%";
+        const butt_x = buttonRef.current.getBoundingClientRect().x;
+        const butt_y = buttonRef.current.getBoundingClientRect().y;
+        const angle =
+          (Math.atan2(
+            y - (butt_y + buttonRef.current.getBoundingClientRect().height / 2),
+            x - (butt_x + buttonRef.current.getBoundingClientRect().width / 2)
+          ) *
+            180) /
+          Math.PI;
+        setGradientRotate(
+          `linear-gradient(${
+            angle - 90
+          }deg, rgb(255, 174, 0) 0%, rgba(255, 255, 255, 0) 25%)`
+        );
       }}
     >
       <Header></Header>
@@ -70,6 +95,36 @@ export default function Hero2() {
         <img src={pen} className="pen" ref={penRef}></img>
         <img src={headset} className="headset" ref={headsetRef}></img>
         <img src="/secondary.png" className="Hero2-image"></img>
+        <div className="Hero2-text">
+          <div className="hero-date">04.07.23 - 04.09.23 |📍Georgia Tech</div>
+        </div>
+        <div className="hero2-desc-text">
+          In-person XR hackathon.
+          Open to all.
+          $5000 in prizes.
+        </div>
+        <div className="hero2-apply">
+          <div
+            className="hero2-apply-button"
+            style={{ backgroundImage: gradientRotate }}
+            ref={buttonRef}
+          >
+            <a
+              href="https://ggqbjxtu5wa.typeform.com/to/LlcDYgKi"
+              className="apply-link"
+            >
+              Apply Now
+            </a>
+          </div>
+
+          <div className="hero-partner">
+            Partner with us{" "}
+            <span className="arrow">
+              <img src="/arrow.png"></img>
+            </span>
+          </div>
+        </div>
+        
       </div>
     </div>
   );
