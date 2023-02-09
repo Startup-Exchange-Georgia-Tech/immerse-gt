@@ -61,6 +61,14 @@ export default function Hero2() {
   useLayoutEffect(() => {
     function updateSize() {
       setSize([window.innerWidth, window.innerHeight]);
+      if (window.innerWidth <= 1500) {
+        setPenOffstateX(-10);
+        setHeadsetOffstateX(-2);
+        setBuzzOffstateX(-20);
+        setPenOffstateY(-20);
+        setHeadsetOffstateY(0);
+        setBuzzOffstateY(-35);
+      }
       if (window.innerWidth <= 1250) {
         setPenOffstateX(-10);
         setHeadsetOffstateX(-2);
