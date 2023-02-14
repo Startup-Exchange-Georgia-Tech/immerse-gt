@@ -180,10 +180,10 @@ export default function Hero2() {
           </div>
 
           <div className="hero-partner">
-            Partner with us{" "}
-            <span className="arrow">
+            Partner with us{" "}➫
+            {/* <span className="arrow">
               <img src="/arrow.png"></img>
-            </span>
+            </span> */}
           </div>
         </div>
         

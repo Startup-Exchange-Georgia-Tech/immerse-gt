@@ -18,7 +18,14 @@
 
 .footer-link {
     color: #d2d2d2;
+    cursor: pointer;
+    transition: 0.3s;
 }
+  
+.footer-link:hover {
+    color: rgb(255, 174, 0);
+}
+
 .footer-link-selected {
     font-weight: 800;
 }
@@ -30,6 +37,16 @@
 .footer-info-container {
     padding-top: 70px;
 }
+
+.footer-info-apply {
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.footer-info-apply:hover {
+    color: rgb(255, 174, 0);
+}
+
 .footer-links-container {
     padding-top: 70px;
 }
@@ -73,4 +90,10 @@
     height: 22px;
     width: auto;
     padding-right: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.footer-social-icon:hover {
+    color: rgb(255, 174, 0);
 }

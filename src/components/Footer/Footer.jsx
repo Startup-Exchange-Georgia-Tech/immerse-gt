@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="footer-info-dates">April 7-9, 2023</div>
 
           <div className="footer-info-join">
-            <span className="footer-info-apply">Apply </span>—
+            <a href="https://ggqbjxtu5wa.typeform.com/to/LlcDYgKi"><span className="footer-info-apply">Apply </span></a>—
             <span className="footer-info-partner"> Partner </span>—
             <span className="footer-info-sponsor">Sponsor</span>
           </div>
@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="footer-nav">
             <div className="footer-link-selected">Home</div>
             <div className="footer-link">About</div>
-            <div className="footer-link">Tracks and Prizes</div>
+            <a href="#TrackCard"><div className="footer-link">Tracks and Prizes</div></a>
             <div className="footer-link">FAQs</div>
             <div className="footer-link">Schedule </div>
             <div className="footer-link">Sponsors</div>
@@ -37,9 +37,9 @@ export default function Footer() {
           </div>
 
           <div className="footer-social">
-            <img src="/linkedin.png" className="footer-social-icon"></img>
-            <img src="/instagram.png" className="footer-social-icon"></img>
-            <img src="/linktree.png" className="footer-social-icon"></img>
+            <a href="https://www.linkedin.com/company/90436194"><img src="/linkedin.png" className="footer-social-icon"></img></a>
+            <a href="http://www.instagram.com/immerse.gt"><img src="/instagram.png" className="footer-social-icon"></img></a>
+            <a href="https://lu.ma/immersegt"><img src="/linktree.png" className="footer-social-icon"></img></a>
           </div>
         </div>
       </div>

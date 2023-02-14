@@ -49,6 +49,21 @@
   position: relative;
   border-radius: 4px;
   padding: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero2-apply-button:hover {
+  border: 3px solid rgb(255, 174, 0);
+}
+
+.hero-partner {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-partner:hover {
+  color: rgb(255, 174, 0);
 }
 
 .apply-link {
