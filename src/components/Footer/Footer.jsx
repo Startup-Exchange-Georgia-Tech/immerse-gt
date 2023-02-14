@@ -5,11 +5,14 @@ export default function Footer() {
     <div className="Footer">
       <div className="footer-content-container">
         <div className="footer-brand-container">
-          <img src="/spiral.png" className="footer-logo"></img>
+          <a href="/"><img src="/spiral.png" className="footer-logo"></img></a>
           <div className="footer-hosts">
             <div className="footer-hosts-title">Co-Hosted By</div>
-            <img src="/sx.png" className="footer-cohost-logo"></img>
-            <img src="/gtxr.png" className="footer-cohost-logo"></img>
+            <a href="https://startup.exchange">
+              <img src="/sx.png" className="footer-cohost-logo"></img>
+
+            </a>
+            <a href="https://gtxr.club"><img src="/gtxr.png" className="footer-cohost-logo"></img></a>
           </div>
         </div>
         <div className="footer-info-container">
@@ -27,13 +30,13 @@ export default function Footer() {
         </div>
         <div className="footer-links-container">
           <div className="footer-nav">
-            <div className="footer-link-selected">Home</div>
+            <a href="/"><div className="footer-link-selected">Home</div></a>
             <div className="footer-link">About</div>
             <a href="#TrackCard"><div className="footer-link">Tracks and Prizes</div></a>
             <div className="footer-link">FAQs</div>
             <div className="footer-link">Schedule </div>
             <div className="footer-link">Sponsors</div>
-            <div className="footer-link">Contact</div>
+            <a href="mailto:hello@immersegt.io"><div className="footer-link">Contact</div></a>
           </div>
 
           <div className="footer-social">

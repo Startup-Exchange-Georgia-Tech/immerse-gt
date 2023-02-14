@@ -8,7 +8,9 @@ export default function Header() {
   return (
     <div className="Header">
       <div className="Header-logo-section">
-        <img src='/spiral.png' className='header-logo'></img>
+        <a href="/">
+          <img src='/spiral.png' className='header-logo'></img>
+        </a>
       </div>
 
       {/* {width > 900 ? 
