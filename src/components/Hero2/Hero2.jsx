@@ -179,12 +179,14 @@ export default function Hero2() {
             </a>
           </div>
 
-          <div className="hero-partner">
-            Partner with us{" "}➫
-            {/* <span className="arrow">
-              <img src="/arrow.png"></img>
-            </span> */}
-          </div>
+          <a href="mailto:hello@immersegt.io">
+            <div className="hero-partner">
+              Partner with us{" "}➫
+              {/* <span className="arrow">
+                <img src="/arrow.png"></img>
+              </span> */}
+            </div>
+          </a>
         </div>
         
       </div>
