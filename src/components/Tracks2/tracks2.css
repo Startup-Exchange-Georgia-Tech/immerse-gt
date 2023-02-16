@@ -18,6 +18,16 @@
   row-gap: 20px;
 }
 
+.tracks-button {
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tracks-button:hover {
+  color: rgb(255, 174, 0);
+}
+
 .tracks2-heading {
   font-weight: 900;
   font-size: 40px;

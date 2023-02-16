@@ -22,8 +22,8 @@ export default function Tracks2() {
           <div className="tracks2-body">
             Tracks for ImmerseGT 2023 cover all kinds of industries, ranging
             from Web3, to Sports & Fitness. Your application will ask you to
-            list your top 3 tracks.For more information on how each track is
-            evaluated, view our Participation Tracks Notion page here.
+            list your top 3 tracks. For more information on how each track is
+            evaluated, view our Participation Tracks Notion page <a className="tracks-button" href="https://startup-exchange.notion.site/startup-exchange/ImmerseGT-Participation-Tracks-8be8e06a49b6475bb63ba4d61eead0ed"><u>here</u></a>.
           </div>
         </div>
         <div className="track-cards-container">

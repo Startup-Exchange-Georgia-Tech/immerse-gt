@@ -8,12 +8,19 @@ export default function Partners() {
         <div className="partners-heading">MEET OUR PARTNERS</div>
         <div className="partners-body">
           For each of our participation tracks, we offer partners the
-          opportunity to sponsor the track’s prize poop, to curate use-cases and
+          opportunity to sponsor the track’s prize pool, to curate use-cases and
           judging criteria, and to offer speakers and mentors.{" "}
         </div>
         <div className="partners-section-button">
-          <div className="partners-button-text">Partner with us</div>
-          <img src="/arrow.png"></img>
+          <a href="mailto:hello@immersegt.io">
+            <div className="hero-partner">
+              Partner with us{" "}➫
+              {/* <span className="arrow">
+                <img src="/arrow.png"></img>
+              </span> */}
+            </div>
+          </a>
+          {/* <div className="partners-button-text">Partner with us</div> */}
         </div>
       </div>
       <div className="partners-images">

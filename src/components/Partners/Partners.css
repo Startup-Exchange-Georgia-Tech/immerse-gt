@@ -60,7 +60,14 @@
   align-items: center;
   column-gap: 10px;
   color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
 }
+  
+.partners-section-button:hover {
+  color: rgb(255, 174, 0);
+}
+  
 
 .partners-images {
   display: flex;

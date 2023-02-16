@@ -21,7 +21,7 @@ export default function Footer() {
 
           <div className="footer-info-join">
             <a href="https://ggqbjxtu5wa.typeform.com/to/LlcDYgKi"><span className="footer-info-apply">Apply </span></a>—
-            <span className="footer-info-partner"> Partner </span>—
+            <a href="mailto:hello@immersegt.io"><span className="footer-info-apply">Partner </span></a>—
             <span className="footer-info-sponsor">Sponsor</span>
           </div>
 
