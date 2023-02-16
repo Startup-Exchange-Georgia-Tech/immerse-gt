@@ -8,6 +8,7 @@
   flex-direction: column;
   row-gap: 30px;
   position: relative;
+  overflow: hidden;
 }
 
 .joinimmersion_title {
@@ -70,4 +71,18 @@
   /* identical to box height, or 21px */
 
   letter-spacing: 0.215em;
+}
+
+@media screen and (max-width: 700px) {
+  .joinimmersion_title {
+    font-size: 24px;
+  }
+
+  .countdown-number {
+    font-size: 20px;
+  }
+
+  .countdown-item {
+    width: 50px;
+  }
 }
