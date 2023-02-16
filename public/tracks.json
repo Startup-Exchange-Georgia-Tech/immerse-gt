@@ -1,0 +1,45 @@
+{
+  "tracks": [
+    {
+      "name": "Data Visualisation",
+      "description" : "Develop novel XR (Extended Reality) applications, assets, and use cases to develop new methods of data visualization or elevate on preexisting ones."
+    },
+    {
+      "name": "Gaming",
+      "description" : "Develop novel XR (Extended Reality) applications, assets, and use cases for gaming both within and outside the Metaverse."
+    },
+    {
+      "name": "DEI",
+      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases to discover and expand utilities of XR technology that promote DEI in the professional work environment, jury/court selection system, foster care, the Metaverse as a whole, or other relevant environments."
+    },
+    {
+      "name": "Mixed Reality",
+      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases at the intersection of physical reality and the virtual universe."
+    },
+    {
+      "name": "Productivity",
+      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases to boost productivity in the professional work environment, education, and day-to-day life."
+    },
+    {
+      "name": "Shared World Experience",
+      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases to discover and expand the social utilities of XR technology in apprenticeship, professional work environment, and the Metaverse as a whole."
+    },
+    {
+      "name": "Sports & Fitness",
+      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases for sports, fitness, and health both within and outside the Metaverse."
+    },
+    {
+      "name": "Sustainaibility",
+      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases to discover and expand utilities of XR technology that promote sustainability in the professional work environment, living, production and supply chain, and the Metaverse as a whole."
+    },
+    {
+      "name": "Web3",
+      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases for decentralization, blockchain, and connectivity. Students will focus on the question “How will XR technology be integral in the development of Web3 and the technology stage of the decentralized world”?"
+    },
+    {
+      "name": "Buisness Use Case",
+      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases that could have been used with old client cases. Find a way to do it bigger or better."
+    }
+
+  ]
+}
