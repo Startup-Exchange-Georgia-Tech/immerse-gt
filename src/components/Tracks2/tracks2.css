@@ -1,0 +1,39 @@
+.tracks2-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  background: #edd7ff;
+}
+
+.tracks2 {
+  border-left: 2px solid #e5c3ff;
+  border-right: 2px solid #e5c3ff;
+  padding: 5%;
+}
+
+.tracks2-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tracks2-heading {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 125%;
+  width: 40%;
+  /* or 50px */
+
+  letter-spacing: -0.03em;
+
+  color: #09080c;
+}
+
+.tracks2-body {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  width: 40%;
+  /* or 24px */
+
+  color: #09080c;
+}
