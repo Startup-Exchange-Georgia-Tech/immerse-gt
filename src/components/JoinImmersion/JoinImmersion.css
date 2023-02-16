@@ -1,0 +1,73 @@
+.JoinImmersion {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 30px;
+  position: relative;
+}
+
+.joinimmersion_title {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 150%;
+  /* identical to box height, or 72px */
+
+  text-align: center;
+  letter-spacing: 0.235em;
+
+  color: #ffffff;
+}
+
+.gradient-glow2 {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+.countdown-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  /* identical to box height, or 32px */
+
+  letter-spacing: 0.77em;
+
+  color: #FFFFFF;
+}
+
+.countdown-container {
+  display: flex;
+  width: 70%;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+  align-items: center;
+  width: 80px;
+}
+
+.countdown-number {
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.countdown-text {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  letter-spacing: 0.215em;
+}

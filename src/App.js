@@ -7,6 +7,7 @@ import Tracks from "./components/Tracks/Tracks";
 import Tracks2 from "./components/Tracks2/tracks2";
 import Partners from "./components/Partners/Partners";
 import RegisterNowBanner from "./components/RegisterNowBanner/RegisterNowBanner";
+import JoinImmersion from "./components/JoinImmersion/JoinImmersion";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Tracks2></Tracks2>
       <RegisterNowBanner></RegisterNowBanner>
       <Partners></Partners>
+      <JoinImmersion></JoinImmersion>
       <Footer></Footer>
     </>
   );
