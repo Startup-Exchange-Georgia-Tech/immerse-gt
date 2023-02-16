@@ -34,7 +34,16 @@ export default function Partners() {
           <a href="https://www.404dao.com/"><img src="/404dao.png" className="partner-image"></img></a>
         </div>
         <div className="partner-image-container">
-          
+          <img src="/google.png" className="partner-image"></img>
+        </div>
+        <div className="partner-image-container">
+          <img src="/meta.png" className="partner-image"></img>
+        </div>
+        <div className="partner-image-container">
+          <img src="/unity.png" className="partner-image"></img>
+        </div>
+        <div className="partner-image-container">
+          <img src="/accenture.png" className="partner-image"></img>
         </div>
       </div>
       <div className="partners-bottom">
