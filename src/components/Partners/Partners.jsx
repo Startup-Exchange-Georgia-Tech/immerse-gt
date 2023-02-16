@@ -28,12 +28,12 @@ export default function Partners() {
           <img src="/deloitte.png" className="partner-image"></img>
         </div>
         <div className="partner-image-container">
-          <img src="/createx.png" className="partner-image"></img>
+          {/* <img src="/createx.png" className="partner-image"></img> */}
         </div>
         <div className="partner-image-container">
-         <img src="/404dao.png" className="partner-image"></img>
+         {/* <img src="/404dao.png" className="partner-image"></img> */}
         </div>
-        <div className="partner-image-container">
+        {/* <div className="partner-image-container">
           <img src="/google.png" className="partner-image"></img>
         </div>
         <div className="partner-image-container">
@@ -44,7 +44,7 @@ export default function Partners() {
         </div>
         <div className="partner-image-container">
           <img src="/accenture.png" className="partner-image"></img>
-        </div>
+        </div> */}
       </div>
       <div className="partners-bottom">
 
