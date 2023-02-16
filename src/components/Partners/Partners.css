@@ -75,7 +75,7 @@
   flex-grow: 1;
   border-bottom: #362246 1px solid;
   display: flex;
-  min-width: 100px;
+  min-width: 200px;
   padding-top: 5%;
   padding-bottom: 5%;
   justify-content: center;
@@ -90,6 +90,7 @@
 
 .partner-image {
   width: 50%;
+  max-width: 350px; 
 }
 
 @media screen and (max-width: 800px) {
