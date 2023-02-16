@@ -1,0 +1,68 @@
+.infinite {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 52px;
+  width: 100%;
+  /* identical to box height, or 78px */
+
+  letter-spacing: -0.03em;
+}
+
+.register-now-banner {
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 150%;
+  /* identical to box height, or 78px */
+
+  letter-spacing: -0.03em;
+
+  color: #09080c;
+}
+
+.register-now-banner {
+  overflow: hidden;
+  display: inline-block;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.infinite-text-container {
+  width: 3000px;
+  display: flex;
+  flex-wrap: nowrap;
+  animation: move 5s infinite linear; /* set the time to what you want of course */
+}
+
+@keyframes move {
+  to {
+    transform: translateX(-20%);
+  }
+}
+.infinite {
+  width: 600px;
+  display: flex;
+  font-size: 52px;
+  margin: 0;
+  padding-left: 0px;
+}
+
+.register-now-text {
+  margin-left: 10%;
+}
+
+.register-now-banner-container {
+  display: flex;
+  background: #e961ff;
+  align-items: center;
+  height: 250px;
+}
+
+.register-now-text-link {
+  text-decoration: none;
+}
+
+.register-now-text-link:hover {
+  color: rgb(255, 174, 0);
+}
