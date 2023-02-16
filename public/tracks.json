@@ -9,16 +9,20 @@
       "description" : "Develop novel XR (Extended Reality) applications, assets, and use cases for gaming both within and outside the Metaverse."
     },
     {
+      "name": "MobileAR",
+      "description" : "Develop novel AR (Augmented Reality) applications, assets, and use cases best suited to be deployed on an Android or IOS Smartphone."
+    },
+    {
+      "name": "WebXR",
+      "description" : "Develop a website or web application that uses VR (Virtual Reality) or AR (Augmented Reality) to elevate the experience of everyday user on the web."
+    },
+    {
       "name": "DEI",
       "description": "Develop novel XR (Extended Reality) applications, assets, and use cases to discover and expand utilities of XR technology that promote DEI in the professional work environment, jury/court selection system, foster care, the Metaverse as a whole, or other relevant environments."
     },
     {
       "name": "Mixed Reality",
       "description": "Develop novel XR (Extended Reality) applications, assets, and use cases at the intersection of physical reality and the virtual universe."
-    },
-    {
-      "name": "Productivity",
-      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases to boost productivity in the professional work environment, education, and day-to-day life."
     },
     {
       "name": "Shared World Experience",
@@ -37,9 +41,12 @@
       "description": "Develop novel XR (Extended Reality) applications, assets, and use cases for decentralization, blockchain, and connectivity. Students will focus on the question “How will XR technology be integral in the development of Web3 and the technology stage of the decentralized world”?"
     },
     {
-      "name": "Buisness Use Case",
+      "name": "Business Use Case",
       "description": "Develop novel XR (Extended Reality) applications, assets, and use cases that could have been used with old client cases. Find a way to do it bigger or better."
+    },
+    {
+      "name": "Productivity",
+      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases to boost productivity in the professional work environment, education, and day-to-day life."
     }
-
   ]
 }
