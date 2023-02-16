@@ -178,7 +178,7 @@ iframe {
 
 @media screen and (max-width: 1500px) {
   .buzz {
-    left: -30vw;
+    left: -20vw;
     scale: 0.5;
     bottom: -35vh;
   }
