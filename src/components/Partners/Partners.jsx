@@ -25,13 +25,13 @@ export default function Partners() {
       </div>
       <div className="partners-images">
         <div className="partner-image-container">
-          <a href="https://www2.deloitte.com/us/en.html"><img src="/deloitte.png" className="partner-image"></img></a>
+          <img src="/deloitte.png" className="partner-image"></img>
         </div>
         <div className="partner-image-container">
-          <a href="https://create-x.gatech.edu/"><img src="/createx.png" className="partner-image"></img></a>
+          <img src="/createx.png" className="partner-image"></img>
         </div>
         <div className="partner-image-container">
-          <a href="https://www.404dao.com/"><img src="/404dao.png" className="partner-image"></img></a>
+         <img src="/404dao.png" className="partner-image"></img>
         </div>
         <div className="partner-image-container">
           <img src="/google.png" className="partner-image"></img>

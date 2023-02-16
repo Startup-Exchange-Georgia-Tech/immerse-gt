@@ -1,12 +1,16 @@
 {
   "tracks": [
     {
-      "name": "Data Visualisation",
+      "name": "Data Visualization",
       "description" : "Develop novel XR (Extended Reality) applications, assets, and use cases to develop new methods of data visualization or elevate on preexisting ones."
     },
     {
       "name": "Gaming",
       "description" : "Develop novel XR (Extended Reality) applications, assets, and use cases for gaming both within and outside the Metaverse."
+    },
+    {
+      "name": "DEI",
+      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases to discover and expand utilities of XR technology that promote DEI in the professional work environment, jury/court selection system, foster care, the Metaverse as a whole, or other relevant environments."
     },
     {
       "name": "MobileAR",
@@ -15,10 +19,6 @@
     {
       "name": "WebXR",
       "description" : "Develop a website or web application that uses VR (Virtual Reality) or AR (Augmented Reality) to elevate the experience of everyday user on the web."
-    },
-    {
-      "name": "DEI",
-      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases to discover and expand utilities of XR technology that promote DEI in the professional work environment, jury/court selection system, foster care, the Metaverse as a whole, or other relevant environments."
     },
     {
       "name": "Mixed Reality",
