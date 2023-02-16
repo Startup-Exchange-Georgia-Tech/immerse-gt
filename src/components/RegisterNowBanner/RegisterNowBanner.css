@@ -32,7 +32,7 @@
   width: 3000px;
   display: flex;
   flex-wrap: nowrap;
-  animation: move 2s infinite linear; /* set the time to what you want of course */
+  animation: move 5s infinite linear; /* set the time to what you want of course */
 }
 
 @keyframes move {
