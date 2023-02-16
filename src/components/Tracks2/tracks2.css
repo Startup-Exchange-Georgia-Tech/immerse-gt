@@ -1,0 +1,125 @@
+.tracks2-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  background: #edd7ff;
+}
+
+.tracks2 {
+  border-left: 2px solid #e5c3ff;
+  border-right: 2px solid #e5c3ff;
+  padding: 5%;
+}
+
+.tracks2-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.tracks2-heading {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 125%;
+  width: 40%;
+  min-width: 200px;
+  /* or 50px */
+
+  letter-spacing: -0.03em;
+
+  color: #09080c;
+}
+
+.tracks2-body {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  width: 40%;
+  min-width: 200px;
+  /* or 24px */
+
+  color: #09080c;
+}
+
+.track-card-container {
+  min-width: 250px;
+  width: 30%;
+  height: 250px;
+  padding: 10px;
+  background: #1B0031;
+  display: flex;
+}
+
+.track-card {
+  background: #1B0031;
+  padding: 5%;
+  position: relative;
+  align-self: flex-end;
+}
+
+.track-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  row-gap: 30px;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.track-card-heading {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 150%;
+  transition: all 0.5s;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  /* identical to box height, or 36px */
+
+  letter-spacing: -0.03em;
+  
+  color: #FFFFFF;
+}
+
+.track-card-body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #FFFFFF;
+  transition: height 0.5s, opacity 0.5s; 
+  height: 0;
+  opacity: 0;
+}
+
+.track-card-container:hover > .track-card > .track-card-body {
+  height: 150px;
+  opacity: 1;
+}
+
+.track-card-container:hover > .track-card > .track-card-heading {
+  transform: translateY(-185px);
+}
+
+@media screen and (max-width: 700px) {
+  .track-card-container {
+    width: 80%;
+  }
+
+  .tracks2-body {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .tracks2-heading {
+    width: 80%;
+    font-size: 32px;
+    margin-top: 20px;
+  }
+  
+  .track-card-body {
+    font-size: 12px;
+  }
+}
