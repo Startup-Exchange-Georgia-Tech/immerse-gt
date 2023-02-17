@@ -109,23 +109,26 @@ export default function Hero2() {
       className="Hero"
       onMouseMove={(e) => {
         if (
+          penRef == null ||
+          headsetRef == null ||
+          buzzRef == null ||
           buttonRef == null
         )
           return;
         var x = e.clientX,
           y = e.clientY;
-        // buzzRef.current.style.top =
-        //   String(buzzOffsetY + (y / window.innerHeight) * 4) + "vh";
-        // buzzRef.current.style.left =
-        //   String(buzzOffsetX + (x / window.innerWidth) * 1.2) + "vw";
-        // penRef.current.style.bottom =
-        //   String(penOffsetY + (y / window.innerHeight) * 5) + "vh";
-        // penRef.current.style.left =
-        //   String(penOffsetX - (x / window.innerWidth) * 1) + "vw";
-        // headsetRef.current.style.bottom =
-        //   String(headsetOffsetY - (y / window.innerHeight) * 4) + "vh";
-        // headsetRef.current.style.right =
-        //   String(headsetOffsetX - (x / window.innerWidth) * 1.2) + "vw";
+        buzzRef.current.style.top =
+          String(buzzOffsetY + (y / window.innerHeight) * 4) + "vh";
+        buzzRef.current.style.left =
+          String(buzzOffsetX + (x / window.innerWidth) * 1.2) + "vw";
+        penRef.current.style.bottom =
+          String(penOffsetY + (y / window.innerHeight) * 5) + "vh";
+        penRef.current.style.left =
+          String(penOffsetX - (x / window.innerWidth) * 1) + "vw";
+        headsetRef.current.style.bottom =
+          String(headsetOffsetY - (y / window.innerHeight) * 4) + "vh";
+        headsetRef.current.style.right =
+          String(headsetOffsetX - (x / window.innerWidth) * 1.2) + "vw";
         const butt_x = buttonRef.current.getBoundingClientRect().x;
         const butt_y = buttonRef.current.getBoundingClientRect().y;
         const angle =
@@ -144,9 +147,9 @@ export default function Hero2() {
     >
       <Header></Header>
       <div className="Hero2-content">
-        {/* <img src={buzz} className="buzz" ref={buzzRef}></img>
+        <img src={buzz} className="buzz" ref={buzzRef}></img>
         <img src={pen} className="pen" ref={penRef}></img>
-        <img src={headset} className="headset" ref={headsetRef}></img> */}
+        <img src={headset} className="headset" ref={headsetRef}></img>
         <img src="/secondary.png" className="Hero2-image"></img>
         <div className="Hero2-text">
           <div className="hero-date">04.07.23 - 04.09.23 |📍Georgia Tech</div>
