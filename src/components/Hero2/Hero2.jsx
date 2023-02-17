@@ -1,13 +1,7 @@
 import Header from "../Header/Header";
 import "./Hero2.css";
 import { useState, useEffect, useRef, useLayoutEffect } from "react";
-import path from "../../assets/path.png";
 import pen from "../../assets/pen.png";
-import union from "../../assets/Union.png";
-import union2 from "../../assets/Union1.png";
-import vector1 from "../../assets/Vector1.png";
-import vector2 from "../../assets/Vector2.png";
-import vector3 from "../../assets/Vector3.png";
 import headset from "../../assets/headset.png";
 import buzz from "../../assets/buzz.png";
 
