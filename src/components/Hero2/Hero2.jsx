@@ -15,7 +15,7 @@ export default function Hero2() {
   const [size, setSize] = useState([0, 0]);
 
   const [gradientRotate, setGradientRotate] = useState(
-    `linear-gradient(0deg, #fff, rgba(255, 255, 255, 0))`
+    `linear-gradient(0deg, rgb(255, 174, 0) 0%, rgba(255, 255, 255, 0) 25%))`
   );
 
   useEffect(() => {
