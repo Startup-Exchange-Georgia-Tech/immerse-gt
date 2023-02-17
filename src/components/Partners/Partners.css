@@ -63,18 +63,16 @@
   cursor: pointer;
   transition: 0.3s;
 }
-  
+
 .partners-section-button:hover {
   color: rgb(255, 174, 0);
 }
-  
 
 .partners-images {
   display: flex;
   flex-wrap: wrap;
   border-left: #362246 1px solid;
   border-top: #362246 1px solid;
-  
 }
 
 .partner-image-container {
@@ -99,12 +97,95 @@
 
 .partner-image {
   width: 50%;
-  max-width: 350px; 
+  max-width: 350px;
+}
+
+.keynote-speakers-section {
+  border-left: #362246 1px solid;
+  border-right: #362246 1px solid;
+}
+
+.keynote-speakers-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  border-top: #362246 1px solid;
+}
+
+.keynote-speaker-card {
+  min-width: 200px;
+  flex-grow: 1;
+  width: 45%;
+  padding: 40px;
+  border-right: 1px solid #362246;
+  border-bottom: 1px solid #362246;
+}
+
+.keynote-speakers-heading {
+  margin-left: 10%;
+}
+
+.keynote-speaker-card-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.keynote-speaker-card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.keynote-speaker-card-text {
+  width: 70%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+
+.keynote-speaker-card-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+
+  letter-spacing: -0.03em;
+
+  background: linear-gradient(219.41deg, #93449f 30.14%, #ffffff 77.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.keynote-speaker-card-role {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: -0.03em;
+
+  color: #e7c8ff;
 }
 
 @media screen and (max-width: 800px) {
   .partners-body {
     width: 100%;
     font-size: 16px;
-  } 
+  }
+
+  .keynote-speaker-card-text {
+    width: 100%;
+  }
 }
