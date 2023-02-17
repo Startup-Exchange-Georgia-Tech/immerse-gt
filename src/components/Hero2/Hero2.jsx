@@ -154,7 +154,7 @@ export default function Hero2() {
         <div className="hero2-desc-text">
           In-person XR hackathon.
           Open to all.
-          $5000 in prizes.
+          $20,000 in prizes.
         </div>
         <div className="hero2-apply">
           <div
