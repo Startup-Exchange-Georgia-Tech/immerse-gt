@@ -63,10 +63,6 @@ export default function Hero2() {
             <img src={buzz} className="buzz" ref={buzzRef}></img>
             <img src={pen} className="pen" ref={penRef}></img>
             <img src={headset} className="headset" ref={headsetRef}></img>
-            {/* <div>area1</div>
-            <div>area2</div>
-            <div>area3</div>
-            <div>area4</div> */}
           </div>
         </div>
 
@@ -94,9 +90,6 @@ export default function Hero2() {
           <a href="mailto:hello@immersegt.io">
             <div className="hero-partner">
               Partner with us ➫
-              {/* <span className="arrow">
-                <img src="/arrow.png"></img>
-              </span> */}
             </div>
           </a>
         </div>
