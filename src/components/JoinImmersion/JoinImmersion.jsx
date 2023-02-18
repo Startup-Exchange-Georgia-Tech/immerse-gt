@@ -62,6 +62,8 @@ export default function JoinImmersion() {
         opacity: 1,
       }} transition={{
         duration: 1,
+      }} viewport={{
+        amount: 0.5
       }}></motion.img>
       <div className="joinimmersion_title">JOIN THE IMMERSION IN </div>
       <div className="countdown-container">

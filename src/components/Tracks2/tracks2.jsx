@@ -52,10 +52,8 @@ export default function Tracks2() {
                 return (
                   <motion.div className="track-card-container" initial={{
                     opacity: 0,
-                    y: 100,
                   }} whileInView={{
                     opacity: 1,
-                    y: 0,
                   }} duration={{
                     duration: 0.5,
                   }}>
