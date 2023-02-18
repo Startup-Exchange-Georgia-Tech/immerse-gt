@@ -29,9 +29,15 @@ export default function Hero2() {
         var x = e.clientX,
           y = e.clientY;
 
-        buzzRef.current.style.margin = `${(y / window.innerHeight) * 4}% 0 0 -${(x / window.innerWidth) * 1.2}%`;
-        penRef.current.style.margin = `-${(y / window.innerHeight) * 5}% 0 0 ${(x / window.innerWidth) * 1}%`;
-        headsetRef.current.style.margin = `${(x / window.innerWidth) * 1.2}% 0 0 ${(y / window.innerHeight) * 4}%`;
+        buzzRef.current.style.margin = `${(y / window.innerHeight) * 4}% 0 0 -${
+          (x / window.innerWidth) * 1.2
+        }%`;
+        penRef.current.style.margin = `-${(y / window.innerHeight) * 5}% 0 0 ${
+          (x / window.innerWidth) * 1
+        }%`;
+        headsetRef.current.style.margin = `${
+          (x / window.innerWidth) * 1.2
+        }% 0 0 ${(y / window.innerHeight) * 4}%`;
         const butt_x = buttonRef.current.getBoundingClientRect().x;
         const butt_y = buttonRef.current.getBoundingClientRect().y;
         const angle =
@@ -80,9 +86,7 @@ export default function Hero2() {
           </div>
 
           <a href="mailto:hello@immersegt.io">
-            <div className="hero-partner">
-              Partner with us ➫
-            </div>
+            <div className="hero-partner">Partner with us ➫</div>
           </a>
         </div>
       </div>

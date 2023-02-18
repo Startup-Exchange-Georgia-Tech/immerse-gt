@@ -38,6 +38,9 @@
   font-weight: 700;
   font-size: 28px;
   margin-top: 30px;
+  z-index: 2;
+  position: relative;
+  mix-blend-mode: color-dodge;
 }
 
 .hero2-desc-text {
@@ -55,6 +58,7 @@
   animation-fill-mode: forwards;
   z-index: 2;
   position: relative;
+  mix-blend-mode: color-dodge;
 }
 
 .hero2-apply {
@@ -110,7 +114,7 @@
   animation-name: default-mineman;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-  -webkit-margin-top-collapse:discard;
+  -webkit-margin-top-collapse: discard;
 }
 
 .pen {
@@ -123,7 +127,7 @@
   animation-duration: 7s;
   animation-iteration-count: infinite;
   filter: blur(4px);
-  -webkit-margin-top-collapse:discard;
+  -webkit-margin-top-collapse: discard;
 }
 
 .headset {
@@ -138,7 +142,7 @@
   filter: blur(8px);
   z-index: 10;
   position: relative;
-  -webkit-margin-top-collapse:discard;
+  -webkit-margin-top-collapse: discard;
 }
 
 iframe {
@@ -212,21 +216,13 @@ iframe {
 @media screen and (max-width: 550px) {
   .hero-date {
     font-size: 18px;
-    z-index: 2;
-    position: relative;
   }
 
   .hero2-apply {
     font-size: 16px;
   }
-}
 
-@media screen and (max-width: 400px) {
-  .hero-date {
-    font-size: 18px;
-  }
-
-  .hero2-apply {
-    font-size: 16px;
+  .Hero2-image {
+    width: 60%;
   }
 }

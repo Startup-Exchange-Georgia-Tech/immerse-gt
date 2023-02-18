@@ -113,14 +113,15 @@
 }
 
 .keynote-speaker-card-container {
-  min-width: 200px;
-  flex-grow: 1;
+  width: 50%;
+  
 }
 
 .keynote-speaker-card {
   padding: 40px;
   border-right: 1px solid #362246;
   border-bottom: 1px solid #362246;
+
 }
 
 .keynote-speakers-heading {
@@ -185,6 +186,10 @@
   .partners-body {
     width: 100%;
     font-size: 16px;
+  }
+
+  .keynote-speaker-card-container {
+    width: 100%;
   }
 
   .keynote-speaker-card-text {
