@@ -1,5 +1,6 @@
 import "./JoinImmersion.css";
 import { useState, useEffect, useRef } from "react";
+import { motion } from "framer-motion";
 
 export default function JoinImmersion() {
   const countDownDate = new Date(2023, 4, 7, 0, 0, 0, 0).getTime();
@@ -55,7 +56,13 @@ export default function JoinImmersion() {
         );
       }}
     >
-      <img src="/gradient-glow2.png" className="gradient-glow2"></img>
+      <motion.img src="/gradient-glow2.png" className="gradient-glow2" initial={{
+        opacity: 0,
+      }} whileInView={{
+        opacity: 1,
+      }} transition={{
+        duration: 1,
+      }}></motion.img>
       <div className="joinimmersion_title">JOIN THE IMMERSION IN </div>
       <div className="countdown-container">
         <div className="countdown-item">

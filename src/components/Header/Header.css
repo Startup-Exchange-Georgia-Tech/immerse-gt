@@ -4,9 +4,9 @@
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   align-items: center;
-  border-bottom: 2px solid #362246;
+  border-bottom: 1px solid #362246;
 }
 
 .Header-logo-section {

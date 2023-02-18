@@ -1,27 +1,82 @@
 import "./Partners.css";
+import { motion } from "framer-motion";
 
 export default function Partners() {
   return (
     <div className="partners">
-      <img src="/gradient-glow1.png" className="gradient-glow-bg"></img>
+      <motion.img
+        src="/gradient-glow1.png"
+        className="gradient-glow-bg"
+        initial={{
+          opacity: 0,
+        }}
+        whileInView={{
+          opacity: 1,
+        }} transition={{
+          duration: 2,
+        }}
+      ></motion.img>
       <div className="partners-content">
-        <div className="partners-heading">MEET OUR PARTNERS</div>
-        <div className="partners-body">
+        <motion.div
+          className="partners-heading"
+          initial={{
+            opacity: 0,
+            y: 100,
+          }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+          }}
+        >
+          MEET OUR PARTNERS
+        </motion.div>
+        <motion.div
+          className="partners-body"
+          initial={{
+            opacity: 0,
+            y: 100,
+          }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+          }}
+        >
           For each of our participation tracks, we offer partners the
           opportunity to sponsor the track’s prize pool, to curate use-cases and
           judging criteria, and to offer speakers and mentors.{" "}
-        </div>
-        <div className="partners-section-button">
+        </motion.div>
+        <motion.div
+          className="partners-section-button"
+          initial={{
+            opacity: 0,
+          }}
+          whileInView={{
+            opacity: 1,
+          }}
+        >
           <a href="mailto:hello@immersegt.io">
             <div className="hero-partner">
-              Partner with us ➫
+              Partner with us{" "}
+              <motion.span
+                initial={{
+                  x: 40,
+                }}
+                whileInView={{
+                  x: 0,
+                }}
+                transition={{
+                  duration: 0.5,
+                }}
+              >
+                ➫
+              </motion.span>
               {/* <span className="arrow">
                 <img src="/arrow.png"></img>
               </span> */}
             </div>
           </a>
           {/* <div className="partners-button-text">Partner with us</div> */}
-        </div>
+        </motion.div>
       </div>
       <div className="partners-images">
         <div className="partner-image-container">
