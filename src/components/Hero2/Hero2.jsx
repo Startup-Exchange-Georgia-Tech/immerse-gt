@@ -28,18 +28,10 @@ export default function Hero2() {
           return;
         var x = e.clientX,
           y = e.clientY;
-        // buzzRef.current.style.top =
-        //   String((y / window.innerHeight) * 4) + "vh";
-        // buzzRef.current.style.left =
-        //   String((x / window.innerWidth) * 1.2) + "vw";
-        // penRef.current.style.bottom =
-        //   String((y / window.innerHeight) * 5) + "vh";
-        // penRef.current.style.left =
-        //   String((x / window.innerWidth) * 1) + "vw";
-        // headsetRef.current.style.bottom =
-        //   String((y / window.innerHeight) * 4) + "vh";
-        // headsetRef.current.style.right =
-        //   String((x / window.innerWidth) * 1.2) + "vw";
+
+        buzzRef.current.style.margin = `${(y / window.innerHeight) * 4}% 0 0 -${(x / window.innerWidth) * 1.2}%`;
+        penRef.current.style.margin = `-${(y / window.innerHeight) * 5}% 0 0 ${(x / window.innerWidth) * 1}%`;
+        headsetRef.current.style.margin = `${(x / window.innerWidth) * 1.2}% 0 0 ${(y / window.innerHeight) * 4}%`;
         const butt_x = buttonRef.current.getBoundingClientRect().x;
         const butt_y = buttonRef.current.getBoundingClientRect().y;
         const angle =
