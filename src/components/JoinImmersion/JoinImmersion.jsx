@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 
 export default function JoinImmersion() {
-  const countDownDate = new Date(2023, 4, 7, 0, 0, 0, 0).getTime();
+  const countDownDate = new Date(2023, 3, 7, 0, 0, 0, 0).getTime();
 
   const [countDown, setCountDown] = useState(
     countDownDate - new Date().getTime()
