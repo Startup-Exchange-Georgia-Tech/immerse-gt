@@ -97,7 +97,7 @@
   font-size: 16px;
   line-height: 150%;
   /* or 24px */
-
+  pointer-events: none;
   color: #FFFFFF;
   transition: height 0.5s, opacity 0.5s; 
   height: 0;
@@ -107,6 +107,7 @@
 .track-card-container:hover > .track-card > .track-card-body {
   height: 150px;
   opacity: 1;
+  pointer-events: all;
 }
 
 .track-card-container:hover > .track-card > .track-card-heading {

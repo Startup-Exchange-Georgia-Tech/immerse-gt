@@ -112,10 +112,12 @@
   border-top: #362246 1px solid;
 }
 
-.keynote-speaker-card {
+.keynote-speaker-card-container {
   min-width: 200px;
   flex-grow: 1;
-  width: 45%;
+}
+
+.keynote-speaker-card {
   padding: 40px;
   border-right: 1px solid #362246;
   border-bottom: 1px solid #362246;

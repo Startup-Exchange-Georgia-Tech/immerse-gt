@@ -13,6 +13,28 @@
   justify-content: center;
 }
 
+.objects-container-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.objects-container {
+  height: 100%;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-areas: 
+    "topleft topright"
+    "bottomleft bottomright";
+    
+}
+
 .hero-date {
   display: flex;
   font-weight: 700;
@@ -54,7 +76,7 @@
 }
 
 .hero2-apply-button:hover {
-  border: 3px solid rgb(255, 174, 0);
+  border: 2px solid rgb(255, 174, 0);
 }
 
 .hero-partner {
@@ -77,20 +99,17 @@
 
 
 .buzz {
-  position: absolute;
-  top: -30vh;
-  left: -2vw;
-  scale: 0.65;
+  scale: 0.2;
+
   animation-name: default-mineman;
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 
 .pen {
-  position: absolute;
-  bottom: -20vh;
-  left: 10vw;
+
   scale: 0.5;
+
   animation-name: default-keyboard;
   animation-duration: 7s;
   animation-iteration-count: infinite;
@@ -98,9 +117,8 @@
 }
 
 .headset {
-  position: absolute;
-  bottom: 5vh;
-  right: 6vw;
+
+  scale: 0.1;
   animation-name: default-keyboard;
   animation-duration: 7s;
   animation-iteration-count: infinite;
@@ -175,7 +193,7 @@ iframe {
     opacity: 1;
   }
 }
-
+/* 
 @media screen and (max-width: 1500px) {
   .buzz {
     left: -20vw;
@@ -234,7 +252,7 @@ iframe {
     bottom: -10vh;
   }
   
-}
+} */
 
 @media screen and (max-width: 550px) {
   .buzz {
