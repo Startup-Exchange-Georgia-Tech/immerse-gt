@@ -90,6 +90,20 @@ export default function Hero2() {
           </a>
         </div>
       </div>
+      <div className="hero-content-bottom">
+        <div className="hero-content-bottom-left">
+          <div className="hero-bottom-text">CO-HOSTS</div>
+          <img src="/gtxr.png" className="hero-club-logo"></img>
+          <img src="/sx.png" className="hero-club-logo"></img>
+        </div>
+        <div className="hero-content-bottom-right">
+          <div className="hero-bottom-text">OFFICIAL PARTNERS</div>
+          <img src="/deloitte.png" className="hero-club-logo"></img>
+        </div>
+      </div>
+      <div className="hero-content-bottom-bottom">
+
+      </div>
     </div>
   );
 }
