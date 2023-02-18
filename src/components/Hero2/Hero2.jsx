@@ -78,7 +78,7 @@ export default function Hero2() {
               </div>
             </div>
             <div className="hero2-desc-text">
-              In-person XR hackathon. Open to all. $20,000 in prizes.
+              In-person & virtual XR hackathon. Open to all. $20,000 in prizes.
             </div>
             <div className="hero2-apply">
               <div
@@ -104,12 +104,12 @@ export default function Hero2() {
       <div className="hero-content-bottom">
         <div className="hero-content-bottom-left">
           <div className="hero-bottom-text">CO-HOSTS</div>
-          <img src="/gtxr.png" className="hero-club-logo"></img>
-          <img src="/sx.png" className="hero-club-logo"></img>
+          <a href="https://www.gtxr.club/"><img src="/gtxr.png" className="hero-club-logo"></img></a>
+          <a href="https://www.startup.exchange/"><img src="/sx.png" className="hero-club-logo"></img></a>
         </div>
         <div className="hero-content-bottom-right">
-          <div className="hero-bottom-text">OFFICIAL PARTNERS</div>
-          <img src="/deloitte.png" className="hero-club-logo"></img>
+          <div className="hero-bottom-text">OFFICIAL PARTNER</div>
+          <a href="https://www2.deloitte.com/us/en.html"><img src="/deloitte.png" className="hero-club-logo"></img></a>
         </div>
       </div>
       <div className="hero-content-bottom-bottom"></div>

@@ -1,0 +1,198 @@
+.workshops {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  overflow: hidden;
+}
+
+.gradient-glow-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.workshops-content {
+  grid-column-start: 2;
+  border-left: #362246 1px solid;
+  border-right: #362246 1px solid;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+}
+
+.workshops-heading {
+  font-family: "Satoshi";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 150%;
+  /* identical to box height, or 60px */
+
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+
+.workshops-body {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  width: 60%;
+  /* or 24px */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.workshops-section-button {
+  font-weight: 900;
+  display: flex;
+  font-size: 24px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.workshops-section-button:hover {
+  color: rgb(255, 174, 0);
+}
+
+.workshops-images {
+  display: flex;
+  flex-wrap: wrap;
+  border-left: #362246 1px solid;
+  border-top: #362246 1px solid;
+}
+
+.workshop-image-container {
+  border-right: #362246 1px solid;
+  flex-grow: 1;
+  border-bottom: #362246 1px solid;
+  display: flex;
+  min-width: 200px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.workshops-bottom {
+  border-left: #362246 1px solid;
+  border-right: #362246 1px solid;
+  height: 200px;
+}
+
+.workshop-image {
+  width: 50%;
+  max-width: 350px;
+}
+
+.keynote-speakers-section {
+  border-left: #362246 1px solid;
+  border-right: #362246 1px solid;
+}
+
+.keynote-speakers-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  border-top: #362246 1px solid;
+}
+
+.keynote-speaker-card-container {
+  width: 50%;
+  
+}
+
+.keynote-speaker-card {
+  padding: 40px;
+  border-right: 1px solid #362246;
+  border-bottom: 1px solid #362246;
+
+}
+
+.keynote-speakers-heading {
+  margin-left: 10%;
+}
+
+.keynote-speaker-card-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.keynote-speaker-card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.keynote-speaker-card-text {
+  width: 70%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+
+.keynote-speaker-card-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+
+  letter-spacing: -0.03em;
+
+  background: linear-gradient(219.41deg, #93449f 30.14%, #ffffff 77.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.keynote-speaker-card-role {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: -0.03em;
+
+  color: #e7c8ff;
+}
+
+@media screen and (max-width: 800px) {
+  .workshops-body {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .keynote-speaker-card-container {
+    width: 100%;
+  }
+
+  .keynote-speaker-card-text {
+    width: 100%;
+  }
+}
