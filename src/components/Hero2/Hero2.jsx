@@ -37,8 +37,8 @@ export default function Hero2() {
           (x / window.innerWidth) * 1
         }%`;
         headsetRef.current.style.margin = `${
-          (x / window.innerWidth) * 1.2
-        }% 0 0 ${(y / window.innerHeight) * 4}%`;
+          (y / window.innerHeight) * 3.2
+        }% 0 0 ${(x / window.innerWidth) * 4}%`;
         const butt_x = buttonRef.current.getBoundingClientRect().x;
         const butt_y = buttonRef.current.getBoundingClientRect().y;
         const angle =
