@@ -97,6 +97,9 @@ export default function workshops() {
         <div className="workshop-image-container">
           <img src="/qualcomm.png" className="workshop-image"></img>
         </div>
+        <div className="workshop-image-container">
+          <img src="/nvidia.png" className="workshop-image"></img>
+        </div>
       </div>
       <div className="workshops-bottom"></div>
 
