@@ -50,7 +50,6 @@
   margin-top: 30px;
   z-index: 2;
   position: relative;
-  mix-blend-mode: color-dodge;
 }
 
 .hero2-desc-text {
@@ -68,7 +67,6 @@
   animation-fill-mode: forwards;
   z-index: 2;
   position: relative;
-  mix-blend-mode: color-dodge;
 }
 
 .hero2-apply {
