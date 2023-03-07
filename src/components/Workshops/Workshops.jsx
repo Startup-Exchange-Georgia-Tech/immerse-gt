@@ -12,7 +12,8 @@ export default function workshops() {
         }}
         whileInView={{
           opacity: 1,
-        }} transition={{
+        }}
+        transition={{
           duration: 2,
         }}
       ></motion.img>
@@ -41,9 +42,13 @@ export default function workshops() {
             y: 0,
           }}
         >
-          Gain hands-on experience in building XR technologies from scratch by learning from industry experts and innovators. 
-          Learn topics from Meta's software ecosystem to the hidden optics behind Google glass!{" "}
-          <br/><br/>In the week leading up to the hackathon, we will also offer 2 daily sessions on the basics of XR development, courtesy of GTXR.
+          Gain hands-on experience in building XR technologies from scratch by
+          learning from industry experts and innovators. Learn topics from
+          Meta's software ecosystem to the hidden optics behind Google glass!{" "}
+          <br />
+          <br />
+          In the week leading up to the hackathon, we will also offer 2 daily
+          sessions on the basics of XR development, courtesy of GTXR.
         </motion.div>
         <motion.div
           className="workshops-section-button"
@@ -80,7 +85,7 @@ export default function workshops() {
       </div>
       <div className="workshops-images">
         {/* <div className="workshop-image-container"> */}
-          {/* <img src="/404dao.png" className="workshop-image"></img> */}
+        {/* <img src="/404dao.png" className="workshop-image"></img> */}
         {/* </div> */}
         <div className="workshop-image-container">
           <img src="/google.png" className="workshop-image"></img>
@@ -99,6 +104,68 @@ export default function workshops() {
         </div>
         <div className="workshop-image-container">
           <img src="/nvidia.png" className="workshop-image"></img>
+        </div>
+      </div>
+      <div className="more-partners">
+        <motion.div
+          className="workshops-section-button"
+          initial={{
+            opacity: 0,
+          }}
+          whileInView={{
+            opacity: 1,
+          }}
+        >
+
+            <div className="hero-workshop">
+              Other Partners{" "}
+              <motion.span
+                initial={{
+                  x: 40,
+                }}
+                whileInView={{
+                  x: 0,
+                }}
+                transition={{
+                  duration: 0.5,
+                }}
+              >
+                ➫
+              </motion.span>
+              {/* <span className="arrow">
+                <img src="/arrow.png"></img>
+              </span> */}
+            </div>
+          
+          
+          {/* <div className="workshops-button-text">workshop with us</div> */}
+        </motion.div>
+        
+      </div>
+      <div className="workshops-images">
+        {/* <div className="workshop-image-container"> */}
+        {/* <img src="/404dao.png" className="workshop-image"></img> */}
+        {/* </div> */}
+        <div className="workshop-image-container">
+          <img src="/immersed.svg" className="workshop-image"></img>
+        </div>
+        <div className="workshop-image-container">
+          <img src="/teleportal.png" className="workshop-image"></img>
+        </div>
+        <div className="workshop-image-container">
+          <img src="/mark3.svg" className="workshop-image"></img>
+        </div>
+        <div className="workshop-image-container">
+          <img src="/inspirit.svg" className="workshop-image"></img>
+        </div>
+        <div className="workshop-image-container">
+          <img src="/futurus.png" className="workshop-image"></img>
+        </div>
+        <div className="workshop-image-container">
+          <img src="/3dimension.webp" className="workshop-image"></img>
+        </div>
+        <div className="workshop-image-container">
+          <img src="/zenvr.webp" className="workshop-image"></img>
         </div>
       </div>
       <div className="workshops-bottom"></div>
