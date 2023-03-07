@@ -156,16 +156,16 @@ export default function workshops() {
           <img src="/mark3.svg" className="workshop-image"></img>
         </div>
         <div className="workshop-image-container">
-          <img src="/inspirit.svg" className="workshop-image"></img>
+          <img src="/inspirit.png" className="workshop-image"></img>
         </div>
         <div className="workshop-image-container">
           <img src="/futurus.png" className="workshop-image"></img>
         </div>
         <div className="workshop-image-container">
-          <img src="/3dimension.webp" className="workshop-image"></img>
+          <img src="/3dimension.png" className="workshop-image"></img>
         </div>
         <div className="workshop-image-container">
-          <img src="/zenvr.webp" className="workshop-image"></img>
+          <img src="/zenvr.png" className="workshop-image"></img>
         </div>
       </div>
       <div className="workshops-bottom"></div>
