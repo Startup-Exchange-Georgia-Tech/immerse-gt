@@ -107,39 +107,21 @@ export default function workshops() {
         </div>
       </div>
       <div className="more-partners">
+
         <motion.div
-          className="workshops-section-button"
+          className="workshops-heading"
           initial={{
             opacity: 0,
+            y: 100,
           }}
           whileInView={{
             opacity: 1,
+            y: 0,
           }}
         >
-
-            <div className="hero-workshop">
-              Other Partners{" "}
-              <motion.span
-                initial={{
-                  x: 40,
-                }}
-                whileInView={{
-                  x: 0,
-                }}
-                transition={{
-                  duration: 0.5,
-                }}
-              >
-                ➫
-              </motion.span>
-              {/* <span className="arrow">
-                <img src="/arrow.png"></img>
-              </span> */}
-            </div>
-          
-          
-          {/* <div className="workshops-button-text">workshop with us</div> */}
+          EVENT WORKSHOPS
         </motion.div>
+
         
       </div>
       <div className="workshops-images">
