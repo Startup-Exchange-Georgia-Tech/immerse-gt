@@ -274,7 +274,9 @@ iframe {
   .hero-date {
     font-size: 18px;
   }
-
+  .hero-club-logo {
+    width: 80px;
+  }
   .hero2-apply {
     font-size: 16px;
   }
