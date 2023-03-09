@@ -119,7 +119,7 @@ export default function workshops() {
             y: 0,
           }}
         >
-          EVENT WORKSHOPS
+          OTHER PARTNERS
         </motion.div>
 
         
