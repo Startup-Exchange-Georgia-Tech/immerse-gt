@@ -14,7 +14,7 @@ export default function Tracks2() {
   }, []);
 
   return (
-    <div className="tracks2-container">
+    <div className="tracks2-container" id="Tracks">
       <div className="tracks2">
         <motion.div
           initial={{

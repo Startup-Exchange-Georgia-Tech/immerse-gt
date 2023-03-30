@@ -31,11 +31,9 @@ export default function Footer() {
         <div className="footer-links-container">
           <div className="footer-nav">
             <a href="/"><div className="footer-link-selected">Home</div></a>
-            <div className="footer-link">About</div>
-            <a href="#TrackCard"><div className="footer-link">Tracks and Prizes</div></a>
-            <div className="footer-link">FAQs</div>
-            <div className="footer-link">Schedule </div>
-            <div className="footer-link">Sponsors</div>
+            <a href="#Tracks"><div className="footer-link">Tracks and Prizes</div></a>
+            <a href="https://www.notion.so/startup-exchange/ImmerseGT-2023-Rules-and-Code-of-Conduct-8b2a39e221174501816180bc5da806b7"><div className="footer-link">Rules</div></a>
+            <a href="https://tinyurl.com/scheduleXR"><div className="footer-link">Schedule </div></a>
             <a href="mailto:hello@immersegt.io"><div className="footer-link">Contact</div></a>
           </div>
 

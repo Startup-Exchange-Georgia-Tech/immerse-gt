@@ -100,7 +100,7 @@ export default function workshops() {
           <img src="/accenture.png" className="workshop-image"></img>
         </div>
         <div className="workshop-image-container">
-          <img src="/qualcomm.png" className="workshop-image"></img>
+          <img src="/essenvia.png" className="workshop-image"></img>
         </div>
         <div className="workshop-image-container">
           <img src="/nvidia.png" className="workshop-image"></img>
