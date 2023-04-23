@@ -16,8 +16,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-info-container">
-          <div className="footer-info-brand">Immerse GT</div>
-          <div className="footer-info-dates">April 7-9, 2023</div>
+          <div className="footer-info-brand">ImmerseGT</div>
+          <div className="footer-info-dates">COMING SPRING 2024</div>
 
           <div className="footer-info-join">
             <a href="https://ggqbjxtu5wa.typeform.com/to/LlcDYgKi"><span className="footer-info-apply">Apply </span></a>—
@@ -25,8 +25,8 @@ export default function Footer() {
             <span className="footer-info-sponsor">Sponsor</span>
           </div>
 
-          <div className="footer-link">Event Overview (Coming Soon)</div>
-          <div className="footer-link">Schedule (Coming Soon)</div>
+          <div className="footer-link"><a href="https://startup-exchange.notion.site/ImmerseGT-2023-Rules-and-Code-of-Conduct-8b2a39e221174501816180bc5da806b7">Event Overview</a></div>
+          <div className="footer-link">Schedule</div>
         </div>
         <div className="footer-links-container">
           <div className="footer-nav">

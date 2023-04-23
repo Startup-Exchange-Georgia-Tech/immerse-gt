@@ -74,7 +74,7 @@ export default function Hero2() {
             <img src="/secondary.png" className="Hero2-image"></img>
             <div className="Hero2-text">
               <div className="hero-date">
-                04.07.23 - 04.09.23 |📍Georgia Tech
+                SPRING 2024 |📍Georgia Tech
               </div>
             </div>
             <div className="hero2-desc-text">

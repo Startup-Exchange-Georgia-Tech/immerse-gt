@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 
 export default function JoinImmersion() {
-  const countDownDate = new Date(2023, 3, 7, 0, 0, 0, 0).getTime();
+  const countDownDate = new Date(2024, 3, 7, 0, 0, 0, 0).getTime();
 
   const [countDown, setCountDown] = useState(
     countDownDate - new Date().getTime()
@@ -65,7 +65,7 @@ export default function JoinImmersion() {
       }} viewport={{
         amount: 0.5
       }}></motion.img>
-      <div className="joinimmersion_title">JOIN THE IMMERSION IN </div>
+      <div className="joinimmersion_title">COMING SPRING 2024 </div>
       <div className="countdown-container">
         <div className="countdown-item">
           <div className="countdown-number">
