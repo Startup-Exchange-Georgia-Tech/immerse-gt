@@ -109,13 +109,13 @@
   line-height: 150%;
   /* identical to box height, or 24px */
   letter-spacing: -0.03em;
-
   color: rgba(255, 255, 255, 0.7);
 }
 
 .hero-content-bottom {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   width: 90vw;
   margin-left: 5vw;
   border-right: 2px solid #362246;

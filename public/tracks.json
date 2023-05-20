@@ -1,52 +1,36 @@
 {
   "tracks": [
     {
-      "name": "Data Visualization",
-      "description" : "Develop novel XR (Extended Reality) applications, assets, and use cases to develop new methods of data visualization or elevate on preexisting ones."
+      "name": "Merging Realities",
+      "description" : "Build at the intersection of physical reality and the virtual universe, while expanding the social utilities of XR technology."
     },
     {
-      "name": "Gaming",
-      "description" : "Develop novel XR (Extended Reality) applications, assets, and use cases for gaming both within and outside the Metaverse."
+      "name": "On-the-Go Augmentation",
+      "description" : "Develop novel XR (Extended Reality) applications to elevate the experience of everyday users on the web or on mobile."
     },
     {
-      "name": "DEI",
-      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases to discover and expand utilities of XR technology that promote DEI in the professional work environment, jury/court selection system, foster care, the Metaverse as a whole, or other relevant environments."
+      "name": "Virtual Adventures",
+      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases for gaming, sports, fitness, and health both within and outside the Metaverse."
     },
     {
-      "name": "MobileAR",
-      "description" : "Develop novel AR (Augmented Reality) applications, assets, and use cases best suited to be deployed on an Android or IOS Smartphone."
+      "name": "Intelligent Immersion",
+      "description" : "Sponsored by Fusen World. Merge the worlds of XR and AI to curate an application that reimagines intelligent VR, AR, or MR applications, assets, and use cases."
     },
     {
-      "name": "WebXR",
-      "description" : "Develop a website or web application that uses VR (Virtual Reality) or AR (Augmented Reality) to elevate the experience of everyday user on the web."
+      "name": "Next-Gen XR Apps",
+      "description" : "Sponsored by Georgia Tech CREATE-X. Develop an XR (Extended Reality) application that solves an industry or consumer problem."
     },
     {
-      "name": "Mixed Reality",
-      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases at the intersection of physical reality and the virtual universe."
+      "name": "Omniverse Odyssey",
+      "description": "Sponsored by NVIDIA. Develop novel XR (Extended Reality) applications, assets, and use cases at the intersection of physical reality and the virtual universe."
     },
     {
-      "name": "Shared World Experience",
-      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases to discover and expand the social utilities of XR technology in apprenticeship, professional work environment, and the Metaverse as a whole."
+      "name": "Innovative Assistive Technology",
+      "description": "Curated by Georgia Tech's Sonification Lab. Develop assistive XR (Extended Reality) applications, assets, and use cases to enhance the livelihood of individuals with disabilities."
     },
     {
-      "name": "Sports & Fitness",
-      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases for sports, fitness, and health both within and outside the Metaverse."
-    },
-    {
-      "name": "Sustainability",
-      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases to discover and expand utilities of XR technology that promote sustainability in the professional work environment, living, production and supply chain, and the Metaverse as a whole."
-    },
-    {
-      "name": "Web3",
-      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases for decentralization, blockchain, and connectivity. Students will focus on the question “How will XR technology be integral in the development of Web3 and the technology stage of the decentralized world”?"
-    },
-    {
-      "name": "Business Use Case",
-      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases that could have been used with old client cases. Find a way to do it bigger or better."
-    },
-    {
-      "name": "Productivity",
-      "description": "Develop novel XR (Extended Reality) applications, assets, and use cases to boost productivity in the professional work environment, education, and day-to-day life."
+      "name": "Mindful Immersion in XR",
+      "description": "Sponsored by ZenVR. Develop novel XR (Extended Reality) applications, assets, and use cases that promote well-being, quality mental health, and a healthy lifestyle."
     }
   ]
 }

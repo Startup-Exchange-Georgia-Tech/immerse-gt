@@ -107,10 +107,7 @@ export default function Hero2() {
           <a href="https://www.gtxr.club/"><img src="/gtxr.png" className="hero-club-logo"></img></a>
           <a href="https://www.startup.exchange/"><img src="/sx.png" className="hero-club-logo"></img></a>
         </div>
-        <div className="hero-content-bottom-right">
-          <div className="hero-bottom-text"></div>
-          {/* <a href="https://www2.deloitte.com/us/en.html"><img src="/deloitte.png" className="hero-club-logo"></img></a> */}
-        </div>
+
       </div>
       <div className="hero-content-bottom-bottom"></div>
     </div>

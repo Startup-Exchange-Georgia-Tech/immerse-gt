@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
         <div className="footer-links-container">
           <div className="footer-nav">
-            <a href="/"><div className="footer-link-selected">Home</div></a>
+            <a href="/"><div className="fooRRter-link-selected">Home</div></a>
             <a href="#Tracks"><div className="footer-link">Tracks and Prizes</div></a>
             <a href="https://www.notion.so/startup-exchange/ImmerseGT-2023-Rules-and-Code-of-Conduct-8b2a39e221174501816180bc5da806b7"><div className="footer-link">Rules</div></a>
             <a href="https://tinyurl.com/scheduleXR"><div className="footer-link">Schedule </div></a>
