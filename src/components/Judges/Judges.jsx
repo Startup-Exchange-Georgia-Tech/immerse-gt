@@ -149,14 +149,14 @@ export default function judges() {
         </div>
         <div className="judge-image-container">
           <div className="ExecBoardCardContainer">
-            <img src="./dan.png" className="judge-image"></img>
+            <img src="./chloe.png" className="judge-image"></img>
             <div className="keynote-speaker-card-title">Chloe Wade</div>
             <div className="keynote-speaker-card-role">DELOITTE</div>
           </div>
         </div>
         <div className="judge-image-container">
           <div className="ExecBoardCardContainer">
-            <img src="./dan.png" className="judge-image"></img>
+            <img src="./will.png" className="judge-image"></img>
             <div className="keynote-speaker-card-title">Will Chick</div>
             <div className="keynote-speaker-card-role">DELOITTE</div>
           </div>
