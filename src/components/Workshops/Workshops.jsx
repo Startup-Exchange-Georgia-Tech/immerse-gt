@@ -94,9 +94,6 @@ export default function workshops() {
           <img src="/meta.png" className="workshop-image"></img>
         </div>
         <div className="workshop-image-container">
-          <img src="/unity.png" className="workshop-image"></img>
-        </div>
-        <div className="workshop-image-container">
           <img src="/accenture.png" className="workshop-image"></img>
         </div>
         <div className="workshop-image-container">
